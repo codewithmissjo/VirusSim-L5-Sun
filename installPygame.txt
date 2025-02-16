@@ -1,10 +1,9 @@
 1. Create a main.py file.
 
-2. Go to (top menu) Terminal and select New Terminal.
-    * (Windows only) If the terminal opens in Powershell, you need change it to Command Prompt.
-    * To do this in the terminal area, click on the down arrow (v) next to the plus sign and select Command Prompt from the dropdown.
+2. Go to (top menu) Terminal > New Terminal.
 
-3. Install pygame by typing the following into the Command Prompt terminal:
+3. (for Windows only) Check the terminal language and change it to Command Prompt if it is something else. To do this in the terminal area, click on the down arrow (v) next to the plus sign and select Command Prompt from the dropdown.
 
+4. In the [cmd] terminal, type:
 (for Windows) python -m pip install pygame
-(for MacOS) python3 -m pip install pygame
+(for Mac) python3 -m pip install pygame
