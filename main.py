@@ -37,18 +37,11 @@ def init_sprites():
         medics.add(Medic((random.randint(0, width), random.randint(0, height))))
 
 def check_round():
-    global num_medics, num_germs, split_time, notDone
+    #global 
     if len(germs) < 1:
-        # medics "won"
-        split_time -= 50
-        if split_time > 10:
-            init_sprites()
-        else:
-            notDone = False
+        pass
     elif len(germs) > (num_germs * split_time) // 2:
-        # viruses "won"
-        num_medics += 1
-        init_sprites()
+        pass
 
 def main():
     init_sprites()
